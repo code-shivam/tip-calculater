@@ -1,12 +1,13 @@
-
+import React from 'react';
 import './App.css';
-import TipCal from './tipcomponent/tipcalculater';
+import Header from './componant/Header';
+
 
 
 function App() {
   return (
     <div className="App">
-    <TipCal/>
+      <Header/>
     </div>
   );
 }
